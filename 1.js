@@ -24,4 +24,4 @@ app.post('/api/post', (req, res) =>
     .then(r => res.send('done'))
 );
 
-app.listen('8001');
+app.listen('8001', '0.0.0.0');
